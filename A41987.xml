@@ -1,0 +1,982 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The vvorlds riddle and the saints blisse</title>
+            <author>Greene, John, fl. 1641.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 33 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A41987</idno>
+            <idno type="STC">Wing G1824A</idno>
+            <idno type="STC">ESTC R40514</idno>
+            <idno type="EEBO-CITATION">19346877</idno>
+            <idno type="OCLC">ocm 19346877</idno>
+            <idno type="VID">108736</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A41987)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 108736)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1671:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The vvorlds riddle and the saints blisse</title>
+                  <author>Greene, John, fl. 1641.</author>
+               </titleStmt>
+               <extent>26 p.   </extent>
+               <publicationStmt>
+                  <publisher>Sold by Thomas Faucet ...,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Attributed to John Greene by Wing.</note>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Reproduction of original in the Union Theological Seminary Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-11</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:108736:1" rendition="simple:additions"/>
+            <p>THE VVORLDS RIDDLE, AND THE SAINTS BLISSE.</p>
+            <figure/>
+            <p>Sold by <hi>Thomas Faucet,</hi> in the <hi>Black-fryers.</hi> 1641.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="2" facs="tcp:108736:2"/>
+            <lg>
+               <l>The praiſe alone of beauties faire</l>
+               <l>Hath him at all command,</l>
+               <l>His throne alone (ſurrounded) is</l>
+               <l>With honours higheſt praiſe.</l>
+               <l>If you will know his name, he is call'd</l>
+               <l>The Ancient of dayes;</l>
+               <l>Who is the ſtocke and root of good,</l>
+               <l>Where ſweetneſſe loſeth meaſure,</l>
+               <l>The height and depth of glories great,</l>
+               <l>Makes up his exhauſt treaſure,</l>
+               <l>Who lived before to give him breath,</l>
+               <l>Who gave to him his ſpring,</l>
+               <l>Shall any force him from his throne,</l>
+               <l>And there ſit downe and ſing?</l>
+               <l>Did any fill his heart with joy?</l>
+               <l>If ſo, ſhew forth his Name,</l>
+               <l>If not, then looke upon his face,</l>
+               <l>That you may ſpred his fame<g ref="char:punc">▪</g>
+               </l>
+               <l>If happineſſe you doe purſue,</l>
+               <l>If pleaſure be your aime,</l>
+               <l>If all things ſweet you meane to meet,</l>
+               <l>And ſo make ſure of gaine,</l>
+               <l>If worlds of honour you would have,</l>
+               <l>If crownes be your delight,</l>
+               <l>Or if you love to pleaſe your eye,</l>
+               <l>In any lovely ſight,</l>
+               <l>If you on ſubſtance love to ſtand,</l>
+               <l>When comes a ſtormy houre,</l>
+               <l>Or when the darts of death are throwne,</l>
+               <l>Y'would hide you in a Tower,</l>
+               <l>Then flie into his boſome faire,</l>
+               <l>Where beauties all doe meet,</l>
+               <l>
+                  <pb n="3" facs="tcp:108736:2"/>
+And when thou entreſt in that place,</l>
+               <l>With ſmiles they will thee greet,</l>
+               <l>Each glory ſhewes a pleaſant face,</l>
+               <l>Thou canſt them not withſtand;</l>
+               <l>They will allure and make thee ſure</l>
+               <l>To be at their command,</l>
+               <l>Such Muſicke ſweetneſſe thou wilt finde</l>
+               <l>Which will thee force to ſtay,</l>
+               <l>The voyce of praiſes will thee cha<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me,</l>
+               <l>And bid thee come away;</l>
+               <l>And dwell for ever in this ſight,</l>
+               <l>Where Myſteries are made knowne:</l>
+               <l>Then whatſoever thou underſtand'ſt</l>
+               <l>Doth ſure become thine owne,</l>
+               <l>If there thou findeſt Wiſdomes ſeat,</l>
+               <l>And ſearcheſt out her ſpring,</l>
+               <l>The ſtreames of glory ſhe brings forth,</l>
+               <l>Will crowne thee as a King,</l>
+               <l>Who knoweth what power, what force ſhe hath?</l>
+               <l>None yet withſtood her arme,</l>
+               <l>Who ever fled into her bower,</l>
+               <l>And by it purchaſed harme;</l>
+               <l>How ſafe are all that lye downe there,</l>
+               <l>Though claps of thunder flie,</l>
+               <l>And though the cloudes with darkneſſe thicke,</l>
+               <l>Over the world doe lie?</l>
+               <l>If Princes rage and at thee ſwell,</l>
+               <l>They ſpend their breath in vaine.</l>
+               <l>If ſnares they lay, the moſt they get</l>
+               <l>Is labour for their paine.</l>
+               <l>Thou ſtand'ſt upon a mighty rocke,</l>
+               <l>Thy building ſure is high.</l>
+               <l>
+                  <pb n="4" facs="tcp:108736:3"/>
+Though dangers were like armies ſtrong,</l>
+               <l>They cannot thee come nigh,</l>
+               <l>Oh if you would be truely bleſt,</l>
+               <l>And never know no griefe;</l>
+               <l>Then dwell amongſt thoſe ſtreames of joyes,</l>
+               <l>Which each ſaith I am chiefe.</l>
+               <l>There's roome enough, thy thoughts may play,</l>
+               <l>Thy game will ſtill thee pleaſe,</l>
+               <l>All bonds by Law are there cut off,</l>
+               <l>Thy worke it is thy eaſe,</l>
+               <l>The heigth, the depth, the length, the breadth,</l>
+               <l>I am alone can finde,</l>
+               <l>He knowes it all, and by this light</l>
+               <l>Refreſheth ſtill his minde:</l>
+               <l>All things in him deſired are,</l>
+               <l>And all maintaine deſires,</l>
+               <l>Loves ſtill doth reſt within his breſt,</l>
+               <l>And kindles holy fires,</l>
+               <l>Who ever ſaw (and loved him not)</l>
+               <l>The beauties of his face,</l>
+               <l>And if thoſe beames on them did ſmile,</l>
+               <l>They cloathed were with grace:</l>
+               <l>And then like Princes they did ſtand,</l>
+               <l>Moſt comely in his ſight,</l>
+               <l>Their lovely lookes doth him perſwade,</l>
+               <l>In them to take delight.</l>
+               <l>And if in ſuch he takes content,</l>
+               <l>Which are but as a land</l>
+               <l>From whence the Crop is cut away,</l>
+               <l>And ſome few eares doth ſtand,</l>
+               <l>What reſt, what joy, what high ſolace,</l>
+               <l>Hath he in fulneſſe ſtore,</l>
+               <l>
+                  <pb n="5" facs="tcp:108736:3"/>
+Where treaſures are with ſuch increaſe,</l>
+               <l>He cannot aske for more?</l>
+               <l>And theſe he ſets before his view,</l>
+               <l>For ever to be ſeene;</l>
+               <l>In all his dayes there's no decayes,</l>
+               <l>Each thing is new and greene:</l>
+               <l>The life he lives is called love,</l>
+               <l>And doth his fill enjoy.</l>
+               <l>He walkes along in pathes moſt ſweet,</l>
+               <l>Where none can him annoy:</l>
+               <l>Security it is the rocke</l>
+               <l>Upon the which he ſtands,</l>
+               <l>And fierce in triumph doth he reign,</l>
+               <l>And bindes all others hands;</l>
+               <l>His crowne is this, he knowes his ſtrength,</l>
+               <l>The armies of his power,</l>
+               <l>Are quickly gathered into one,</l>
+               <l>And ready at an houre;</l>
+               <l>He knowes his enemies where they lie,</l>
+               <l>Their ſcowts and all their friends,</l>
+               <l>Their plots doth make him melody,</l>
+               <l>By theſe he ſees them ſlaine.</l>
+               <l>He workes and none moleſteth him,</l>
+               <l>But forthwith gives him way,</l>
+               <l>His praiſe his enemies brings to light</l>
+               <l>In that though they ſay nay.</l>
+               <l>Who would not lie within his breſt,</l>
+               <l>His counſels for to know,</l>
+               <l>And ſee how powers doth there combine,</l>
+               <l>His foes to overthrow:</l>
+               <l>If there thou ſtay<g ref="char:punc">▪</g> thou ſure ſhalt ſee</l>
+               <l>The Godhead round him flow,</l>
+               <l>
+                  <pb n="6" facs="tcp:108736:4"/>
+Each glory with it's ſeverall light,</l>
+               <l>Makes up a lovely ſhow:</l>
+               <l>Theſe excellencies all doe ſay,</l>
+               <l>We will ſtand thee in ſtead,</l>
+               <l>Himſelfe theſe excellencies are</l>
+               <l>To helpe him at his need;</l>
+               <l>Life is the chiefeſt of his ſtrength,</l>
+               <l>Love joynes it ſelfe to either,</l>
+               <l>There truth and holineſſe are met</l>
+               <l>And mingle both together.</l>
+               <l>Light comprehendeth all the Sunne,</l>
+               <l>And for all maketh way,</l>
+               <l>That ſo eternity may ſeeme,</l>
+               <l>But as one pleaſant day,</l>
+               <l>In which his beauties are diſplai'd,</l>
+               <l>By peeces at his pleaſure:</l>
+               <l>And ſo the Godhead ſhewes it ſelfe,</l>
+               <l>Quite boundleſſe in it's meaſure.</l>
+               <l>'Tis that which comprehendeth all,</l>
+               <l>To it all's but a ſtory;</l>
+               <l>And like a Prologue maketh way,</l>
+               <l>That it may ſhew forth glory;</l>
+               <l>All creatures of it ſpeaketh praiſe</l>
+               <l>And ſings a pleaſant ſong,</l>
+               <l>We dy and vaniſh quite away</l>
+               <l>That ſo truth may be ſtrong<g ref="char:punc">▪</g>
+               </l>
+               <l>Of this all Angels ſpeaketh high,</l>
+               <l>And ownes no other talke<g ref="char:punc">▪</g>
+               </l>
+               <l>Their feet are ſtrong to run a race<g ref="char:punc">▪</g>
+               </l>
+               <l>In this moſt ſpacious walke,</l>
+               <l>Their names, their natures, all they are</l>
+               <l>This Myſtery maintaines</l>
+               <l>
+                  <pb n="7" facs="tcp:108736:4"/>
+If this were done their life were gone,</l>
+               <l>Their pleaſures turn'd to paines,</l>
+               <l>They never ſpeake of any power,</l>
+               <l>But in Jehovaes name,</l>
+               <l>They are glad to hide them in his Tower,</l>
+               <l>To keepe themſelves from ſhame.</l>
+               <l>O let none grope in darkneſſe thicke,</l>
+               <l>To finde a pleaſant way,</l>
+               <l>Leſt cloudes put out his glimmering light,</l>
+               <l>And ſo he goe aſtray,</l>
+               <l>The creatures all they are as vayles,</l>
+               <l>Through which few men can ſee,</l>
+               <l>Moſt aime to catch their gaudy ſhewes,</l>
+               <l>And miſſe felicity,</l>
+               <l>But if the myſtery opened were,</l>
+               <l>Some light there would appeare,</l>
+               <l>Then reſtleſſe ſhould we be untill</l>
+               <l>We clime a higher ſpeare,</l>
+               <l>Whereas the fountaine of all bliſſe,</l>
+               <l>Eternally doth flow,</l>
+               <l>And from thoſe ſprings refreſhment runnes,</l>
+               <l>To all that<g ref="char:punc">▪</g>thither goe.</l>
+               <l>What mighty ſeas of joy is there?</l>
+               <l>One wave another takes,</l>
+               <l>Thus we are borne<g ref="char:punc">▪</g> and tydes of love</l>
+               <l>And ſorrowes us forſakes.</l>
+               <l>All ſpots and ſtaines are waſh'd away,</l>
+               <l>Full faire are we and bright,</l>
+               <l>That ſo the King of glories great,</l>
+               <l>In us may take delight.</l>
+               <l>When we are deckt with ſuch a dreſſe,</l>
+               <l>As ſutes with him full well.</l>
+               <l>
+                  <pb n="8" facs="tcp:108736:5"/>
+Then comes he to his Princely ſeat,</l>
+               <l>Reſolving there to dwell,</l>
+               <l>The Throne he is, and is heaven call'd</l>
+               <l>Where he doth rule with might:</l>
+               <l>This heaven is his beauties care,</l>
+               <l>Each in his fulleſt light.</l>
+               <l>Another dwelling place hath he,</l>
+               <l>Which he his Temple ſtiles,</l>
+               <l>And there full oft in glory walkes,</l>
+               <l>Rejoycing it with ſmiles.</l>
+               <l>If thou but in his loweſt ſeat</l>
+               <l>His countenance doſt ſee,</l>
+               <l>Thou ſhalt at length his throne ſurmount,</l>
+               <l>Where honoured thou ſhalt be;</l>
+               <l>The firſt and laſt that ever was,</l>
+               <l>Or evermore ſhall be,</l>
+               <l>Will on thee ſet immortall crownes</l>
+               <l>In ſigne of victory,</l>
+               <l>Where thou ſhalt ſing new ſongs of love,</l>
+               <l>For ever and for aye:</l>
+               <l>Where time's loſt in eternity</l>
+               <l>That everlaſting day.</l>
+               <l>And thus the God of gods will ſay,</l>
+               <l>My childe all is thine owne,</l>
+               <l>Theſe pleaſures ſweet, theſe glories great,</l>
+               <l>This high and kingly throne:</l>
+               <l>Here ſit thee downe devolve thy ſelfe,</l>
+               <l>With honours higheſt fame,</l>
+               <l>To make thee equall in delights,</l>
+               <l>I'le clothe thee with my Name,</l>
+               <l>In fulleſt glory ſpread thy ſelfe,</l>
+               <l>Here's roome for thee to lie,</l>
+               <l>
+                  <pb n="9" facs="tcp:108736:5"/>
+Thy heart, thy thoughts, and all thou art,</l>
+               <l>Is in infinity.</l>
+               <l>The more thou look'ſt, the more thou mayeſt</l>
+               <l>Still love to looke upon,</l>
+               <l>And looke to love and ever gaze</l>
+               <l>Upon this King alone.</l>
+               <l>This is the ſong thou ſtill wilt ſing,</l>
+               <l>I am hath ſet me free,</l>
+               <l>And now I walke as ſet at large,</l>
+               <l>In midſt of liberty.</l>
+               <l>Sorrowes below me have their ſeat,</l>
+               <l>Griefes cannot me come nigh,</l>
+               <l>The dreadfull pangs of death are paſt,</l>
+               <l>I owne no miſery.</l>
+               <l>As women joy when after paine,</l>
+               <l>They ſee their iſſue come,</l>
+               <l>And through thoſe joyes their paines forget,</l>
+               <l>As if they nere had none;</l>
+               <l>So I forget all things that's old,</l>
+               <l>I wholly there eſchew,</l>
+               <l>And now addreſſe my ſelfe to joy,</l>
+               <l>In things moſt faire and new.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <lg>
+               <l>HAppineſſe conveyed by Jeſus Chriſt,</l>
+               <l>When death came on by <hi>Adams</hi> loſſe,</l>
+               <l>Our danger might we ſee,</l>
+               <l>The preſence of new joyes were gone,</l>
+               <l>Men left in miſery.</l>
+               <l>Thoſe beames of light which was our ſtrength,</l>
+               <l>Were vaniſht quite away,</l>
+               <l>The frame and face of all things then,</l>
+               <l>Muſt periſh and decay.</l>
+               <l>
+                  <pb n="10" facs="tcp:108736:6"/>
+Alas poore man thou art undone,</l>
+               <l>Who ſhall thy loſſe reſtore,</l>
+               <l>And quit thee out of ſlaviſh bands,</l>
+               <l>And cure thee of thy ſore?</l>
+               <l>Muſt death be ſtill a tyrant ſtrong,</l>
+               <l>And rule thee at his pleaſure,</l>
+               <l>Or by his many poyſoned darts,</l>
+               <l>Torment thee without meaſure.</l>
+               <l>Where is thy ſtrength, looke round about,</l>
+               <l>Will none thee now deliver?</l>
+               <l>Is there no King with death to meet,</l>
+               <l>Well furniſht with a quiver?</l>
+               <l>With many arrowes ſharpe and keene<g ref="char:punc">▪</g>
+               </l>
+               <l>To ſting death to the heart,</l>
+               <l>And ſo to make his powers fall,</l>
+               <l>And eaſe thee of thy ſmart?</l>
+               <l>If one there be<g ref="char:punc">▪</g> declare his name,</l>
+               <l>Let all men know his power,</l>
+               <l>And ſee the ſtrength of his right arme,</l>
+               <l>That ras'd downe hath deaths tower,</l>
+               <l>That ſo to him we praiſes may,</l>
+               <l>For ever ſing alowd,</l>
+               <l>And in his bower finde a place,</l>
+               <l>Our ſelves in ſtormes to ſhrowd,</l>
+               <l>He is call'd by name the Sonne of God,</l>
+               <l>God in his rich aray,</l>
+               <l>With all his fulneſſe ſhining bright,</l>
+               <l>And coſtly garments gay,</l>
+               <l>When firſt light ſhined in his breaſt,</l>
+               <l>This Sonne then did he ſee,</l>
+               <l>The glory of his lovelineſſe,</l>
+               <l>He counts his Sonne to be.</l>
+               <l>
+                  <pb n="11" facs="tcp:108736:6"/>
+By light of this Sonne he generates,</l>
+               <l>He ſtands ſtill in his ſight,</l>
+               <l>And by the ſpirit of life and love,</l>
+               <l>He yeelds to him his right;</l>
+               <l>Which is to owne him as his joy,</l>
+               <l>The fountaine of his pleaſure,</l>
+               <l>Where all his glories are envolv'd,</l>
+               <l>A Magazin of treaſure,</l>
+               <l>By him he frameth all his thoughts,</l>
+               <l>And comes to underſtand</l>
+               <l>How all deſignes may come to light,</l>
+               <l>And proſper in his hand.</l>
+               <l>In him before time did begin,</l>
+               <l>He ſaw a goodly ſpace,</l>
+               <l>The length is call'd eternity,</l>
+               <l>In which he runnes his race,</l>
+               <l>And in all ages ſhewes himſelfe,</l>
+               <l>As beſt becomes his Grace;</l>
+               <l>That ſo the wiſe in myſtery,</l>
+               <l>At length may know his face;</l>
+               <l>In him he walk'd by pleaſant thoughts,</l>
+               <l>Throughout the world ſo wide,</l>
+               <l>And though no world was to be found,</l>
+               <l>Yet Saints he there eſpi'd.</l>
+               <l>In him the childrens lives were wrapt,</l>
+               <l>A place of ſureſt ſtay,</l>
+               <l>That them he might know where to finde,</l>
+               <l>Upon their happy day,</l>
+               <l>By vertue of the ſpirit of power,</l>
+               <l>In him all joyes doe finde;</l>
+               <l>And ſeeing this reſolved is,</l>
+               <l>For ever in his minde,</l>
+               <l>
+                  <pb n="12" facs="tcp:108736:7"/>
+Upon him wholly for to ſpend</l>
+               <l>His life, and his delight,</l>
+               <l>And in thoſe pleaſures to rejoyce,</l>
+               <l>As armies of his might.</l>
+               <l>This is his life, herein he joyes,</l>
+               <l>Here is his hearts deſire.</l>
+               <l>Here doth he find beauties combin'd,</l>
+               <l>Moſt purely and entire.</l>
+               <l>This being ſo, now doth he thinke,</l>
+               <l>How he his name may raiſe,</l>
+               <l>And ſo together with his Sonne,</l>
+               <l>Get an eternall praiſe,</l>
+               <l>That him he might ſet forth to all,</l>
+               <l>He ſends him in diſguiſe,</l>
+               <l>And vailes his glory with our fleſh,</l>
+               <l>The world againe to riſe.</l>
+               <l>Herein is Wiſdomes chiefeſt part,</l>
+               <l>Declared and made knowne,</l>
+               <l>That ſo the counſels of the world,</l>
+               <l>Might quite be overthrowne.</l>
+               <l>Who would have thought the Sonne of God,</l>
+               <l>A mortall death muſt die,</l>
+               <l>And by his deadly death us bring,</l>
+               <l>To Immortality.</l>
+               <l>How many troupes of enemies flocke</l>
+               <l>Againſt him for to warre,</l>
+               <l>And in the combat him to foyle</l>
+               <l>by many a cruell ſcarre?</l>
+               <l>But in this battell who was ſlaine?</l>
+               <l>Was't he, or was't his foes,</l>
+               <l>If he, it was to riſe againe<g ref="char:punc">▪</g>
+               </l>
+               <l>To bring them freſher woes,</l>
+               <l>
+                  <pb n="13" facs="tcp:108736:7"/>
+The prince of darkneſſe Captaine was</l>
+               <l>The chiefeſt in this fight,</l>
+               <l>Who from his nature hath his name,</l>
+               <l>His workes are blacke as night.</l>
+               <l>With him comes ſinne, comes death, comes loſſe,</l>
+               <l>Their force they doe unite,</l>
+               <l>That ſo their blowes and darts on him,</l>
+               <l>Together at once might light.</l>
+               <l>Now, now, or never ſaith this Prince,</l>
+               <l>I muſt me conqueſt bring,</l>
+               <l>Or elſe a captive I muſt be</l>
+               <l>Under this mighty King.</l>
+               <l>This fight was ſore to fleſhly view,</l>
+               <l>All might have thought the day,</l>
+               <l>It had beene loſt, and we been caught</l>
+               <l>In hels hands for a prey,</l>
+               <l>But when all fleſhly ſtrength did faile,</l>
+               <l>Then was the chiefeſt time,</l>
+               <l>For righteouſneſſe to ſhew it ſelfe,</l>
+               <l>Moſt glorious and ſublime.</l>
+               <l>The glory of the God-head great,</l>
+               <l>Upon this Chriſt our King,</l>
+               <l>Did reſt, and eke it ſelfe diſplay,</l>
+               <l>And there in triumph ſing,</l>
+               <l>There truth and mercy met at once,</l>
+               <l>Each ſtrove to get the day,</l>
+               <l>But being reconcil'd at length</l>
+               <l>To other each did ſay,</l>
+               <l>We'll joyne our ſweetneſſe and our might</l>
+               <l>And goe with glorious traine, o<gap reason="illegible: faint" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </l>
+               <l>That ſo we may revive and bleſſe</l>
+               <l>Thoſe that were counted ſlaine.</l>
+               <l>
+                  <pb n="14" facs="tcp:108736:8"/>
+How mighty did the Godhead flow,</l>
+               <l>about our Saviour ſweet,</l>
+               <l>And by it did preſent himſelfe,</l>
+               <l>a ſacrifice moſt meet.</l>
+               <l>For great Jehovah to delight</l>
+               <l>and pleaſe himſelfe withall.</l>
+               <l>When he beholds his ſouldiers ſtout,</l>
+               <l>led bondage into thrall.</l>
+               <l>Theſe ſouldiers are his Attributes,</l>
+               <l>each glorious for to ſee,</l>
+               <l>Well furniſh'd both with skill and ſtrength,</l>
+               <l>to make his enemies flee.</l>
+               <l>Where's death become with all his powers,</l>
+               <l>and principalities?</l>
+               <l>'Tis gone to hell, and hath it's doome</l>
+               <l>with darkneſſe and with lies.</l>
+               <l>The Prince of Hell is now adjudg'd</l>
+               <l>in chaines of wrath to lie,</l>
+               <l>And by theſe chaines perplexed ſore,</l>
+               <l>throughout Eternity.</l>
+               <l>Who was it girt himſelfe with zeale,</l>
+               <l>or who with fury came,</l>
+               <l>To tread the Wine-preſſe of Gods wrath,</l>
+               <l>and ſo to get a name.</l>
+               <l>What power was that which conquer'd ſinne,</l>
+               <l>whoſe Wiſedome made it's way,</l>
+               <l>Or can you tell where thoſe joyes are,</l>
+               <l>which hath skarr'd griefe away?</l>
+               <l>Hee's call'd, by name <hi>Emanuell,</hi>
+               </l>
+               <l>and well he may ſo be.</l>
+               <l>In that he left his royall Throne,</l>
+               <l>to dwell with me and thee.</l>
+               <l>
+                  <pb n="15" facs="tcp:108736:8"/>
+The world it was a place whereas</l>
+               <l>his glory he might ſhow,</l>
+               <l>And yet though glory did appeare,</l>
+               <l>few men of it did know.</l>
+               <l>The humane nature was a vaile,</l>
+               <l>which kept light from our eyes,</l>
+               <l>And yet that was the ordinance,</l>
+               <l>by which our bliſſe did riſe.</l>
+               <l>Here was the wonder of a God,</l>
+               <l>a thing ſo meane and low,</l>
+               <l>Should bring to paſſe ſuch mighty things,</l>
+               <l>and all his Counſell ſhow.</l>
+               <l>Here's wiſdome in a myſtery,</l>
+               <l>and power uncontrol'd,</l>
+               <l>The Fountaines deepe, and ſundry Springs</l>
+               <l>of life you may behold,</l>
+               <l>For by his death to God we are</l>
+               <l>reſtored backe again,</l>
+               <l>And now our enemies wear our bands,</l>
+               <l>and vext are with our paine.</l>
+               <l>What pangs, what woe's, what miſeries,</l>
+               <l>muſt they be ſure to have?</l>
+               <l>Now death is dead, and guilt is fled,</l>
+               <l>and griefe lies in his grave.</l>
+               <l>Where's darkneſſe now become that cloath'd</l>
+               <l>it ſelfe with blackneſſe hue,</l>
+               <l>Can it out-brave the light of life,</l>
+               <l>and it's bright beames eſchew?</l>
+               <l>If ſo, ſtand forth you helliſh powers,</l>
+               <l>where are your ſpels to charme?</l>
+               <l>Or ſhew ſome nurcery that is new,</l>
+               <l>to bring unlook't for harme.</l>
+               <l>
+                  <pb n="16" facs="tcp:108736:9"/>
+What is your wit quite loſt at once,</l>
+               <l>can none take us away,</l>
+               <l>Out of the hands of him whom we</l>
+               <l>doe count our ſtrength and ſtay?</l>
+               <l>If by his death ſo great a loſſe,</l>
+               <l>his enemie doth endure.</l>
+               <l>His life muſt be a greater croſſe,</l>
+               <l>and they muſt beare it ſure,</l>
+               <l>His Saints are ſet at liberty,</l>
+               <l>as men from death ſet free.</l>
+               <l>Their joyes before them faſt doe ſtand,</l>
+               <l>and in theſe joyes they ſee</l>
+               <l>Their Saviour compaſt with the ſtrength</l>
+               <l>and height of fulleſt bliſſe.</l>
+               <l>The Father with his glory bright,</l>
+               <l>with many ſmiles him kiſſe.</l>
+               <l>And thus he ſaith, my ſonne, I lay</l>
+               <l>the charge upon thy hand.</l>
+               <l>The ſubſtance of the Godhead great,</l>
+               <l>is thine for to command.</l>
+               <l>I know no joy, no reſt, no peace,</l>
+               <l>but what I have in thee.</l>
+               <l>I am thy ſtrength, thou art my might,</l>
+               <l>by thee I looke to ſee</l>
+               <l>The glory of my beauties faire,</l>
+               <l>abroad the world to ſpeake,</l>
+               <l>And ſo to cauſe things high and ſtrong,</l>
+               <l>to be eſteemed weake.</l>
+               <l>All fleſh muſt fall before thy face,</l>
+               <l>though ſeemingly 'tis gay.</l>
+               <l>Yet when thy glory doth ariſe,</l>
+               <l>i'ts beauty fals away.</l>
+               <l>
+                  <pb n="17" facs="tcp:108736:9"/>
+My treaſure all 'its in thy breaſt,</l>
+               <l>the incombs of my praiſe</l>
+               <l>Returnes, according to the power</l>
+               <l>and wiſedome of thy wayes.</l>
+               <l>The honour that the Father hath,</l>
+               <l>'tis gained by the Sonne.</l>
+               <l>The Spirit worketh all in all,</l>
+               <l>and ſo their praiſe is one.</l>
+               <l>The childrens life is hid in him,</l>
+               <l>this life is all things ſweet,</l>
+               <l>Concentred in his breaſt, the which</l>
+               <l>makes him a Saviour meet.</l>
+               <l>There's light moſt full, there's truth moſt ſtrong,</l>
+               <l>and glory as a flame,</l>
+               <l>And holineſſe amongſt the reſt,</l>
+               <l>ſhewes forth his mighty name.</l>
+               <l>The Image of the Fathers face,</l>
+               <l>in him is ſeene moſt bright.</l>
+               <l>And whoſoever doth it ſee,</l>
+               <l>lives in the cleareſt light.</l>
+               <l>By it they come to underſtand</l>
+               <l>the Father and the Sonne.</l>
+               <l>All that they have, all that they are,</l>
+               <l>to be entirely one.</l>
+               <l>The life the which each other lives,</l>
+               <l>is in the ſelfe-ſame good.</l>
+               <l>The Father is all beauties rare,</l>
+               <l>the Sonne this underſtood.</l>
+               <l>He dwelleth in his boſome ſweet,</l>
+               <l>and knoweth well his minde.</l>
+               <l>Hee's call'd by name his Counſellor</l>
+               <l>and by him he doth finde,</l>
+               <l>
+                  <pb n="18" facs="tcp:108736:10"/>
+How Wiſdomes glory may be ſeene,</l>
+               <l>in things that are obſcure;</l>
+               <l>And when he hath no footſteps ſeene,</l>
+               <l>then are his wayes full ſure.</l>
+               <l>This glorious myſtery is ſo high,</l>
+               <l>there is none can it finde,</l>
+               <l>If any of it knoweth ought,</l>
+               <l>'tis he ſaith I am blinde.</l>
+               <l>It's more then ſixteene hundred yeares,</l>
+               <l>when firſt it had a tongue.</l>
+               <l>And though ſo long it hath remain'd,</l>
+               <l>it ſtill is freſh and young.</l>
+               <l>The age hereof Eternity,</l>
+               <l>it doth make knowne, and wee</l>
+               <l>Shall then by light taſte and feele life,</l>
+               <l>when Conquerors we ſhall be.</l>
+               <l>Who ſhall declare the Fathers minde,</l>
+               <l>unleſſe it be the Sonne,</l>
+               <l>And when men come to know the ſame,</l>
+               <l>by it their hearts are wonne,</l>
+               <l>To dwell where grace and love doth meet,</l>
+               <l>and ſo to finde a reſt,</l>
+               <l>Even in his boſome where they know</l>
+               <l>they are ſecure and bleſt.</l>
+               <l>There are they fill'd with all delights</l>
+               <l>their Cup doth overflow,</l>
+               <l>Their comforts never die nor flie,</l>
+               <l>but flouriſh ſtill and grow.</l>
+               <l>Though they like to <hi>Leviathan,</hi>
+               </l>
+               <l>could drinke up Rivers wide,</l>
+               <l>Yet doth theſe vaſt eternall deepes</l>
+               <l>in their full ſtrength abide.</l>
+               <l>
+                  <pb n="19" facs="tcp:108736:10"/>
+There are they ever meaſuring out</l>
+               <l>theſe everlaſting meaſures,</l>
+               <l>And by their labour they doe finde,</l>
+               <l>new Springs of living pleaſures,</l>
+               <l>The world and all it's joyes are loſt,</l>
+               <l>when they in him are found,</l>
+               <l>They ſee all Shadowes fly away,</l>
+               <l>their reſt is true and ſound.</l>
+               <l>Was ever any taken up,</l>
+               <l>into his boſome ſweet,</l>
+               <l>And did not finde Loves glorious face,</l>
+               <l>with ſmiles him kiſſe and greet,</l>
+               <l>Nor ever lay there any ſpace</l>
+               <l>but had their face with glory</l>
+               <l>Moſt richly deckt, and in their hearts</l>
+               <l>there written was a ſtory</l>
+               <l>Of things moſt rich, moſt high, moſt pure,</l>
+               <l>myſterious, and unknowne,</l>
+               <l>The world it cannot underſtand,</l>
+               <l>becauſe they love their owne.</l>
+               <l>The ſpirit doth transforme and mould</l>
+               <l>into the image bright,</l>
+               <l>Both of the Father and the Son</l>
+               <l>by both their pow'r and light.</l>
+               <l>All theſe which are by glorious beames</l>
+               <l>drawne up into the Son</l>
+               <l>Lives in the midſt of laſting light,</l>
+               <l>where life doth purely run</l>
+               <l>More clear than any chryſtall ſtream,</l>
+               <l>more ſtrong than any tide,</l>
+               <l>The ſweetneſſe of this water pure,</l>
+               <l>invites men to abide,</l>
+               <l>
+                  <pb n="20" facs="tcp:108736:11"/>
+Where they may drink and be refreſht,</l>
+               <l>and in themſelves may know,</l>
+               <l>This fountain runs their ſprings doth riſe,</l>
+               <l>and plentifully flow.</l>
+               <l>The truth of all is ſurely this,</l>
+               <l>that <hi>Ieſus</hi> now is ſet<g ref="char:punc">▪</g>
+               </l>
+               <l>And made a Prince of high degree,</l>
+               <l>to ſhew Gods glory great:</l>
+               <l>The Father truſts him with his ſtock</l>
+               <l>and fulneſſe of his ſtore,</l>
+               <l>He hath the rule of all he hath,</l>
+               <l>he hath not any more,</l>
+               <l>This <hi>Ieſus</hi> is our brother dear,</l>
+               <l>he hath our portions ſure,</l>
+               <l>Hee's true, hee's wiſe, hee's ſtrong withall,</l>
+               <l>in him they are ſecure:</l>
+               <l>He like a nurſe doth cheriſh us<g ref="char:punc">▪</g>
+               </l>
+               <l>by drops as we can bear,</l>
+               <l>And when we come to greater ſtrength,</l>
+               <l>then greater is our ſhare:</l>
+               <l>From him we ſuck, in him we grow,</l>
+               <l>into his armes we flee,</l>
+               <l>There are we compaſt with all joyes,</l>
+               <l>and in theſe joyes we ſee</l>
+               <l>Our names, our natures, and our life,</l>
+               <l>moſt clear, moſt pure, and bright.</l>
+               <l>The truth and glory of all we are,</l>
+               <l>even by the ſpirit of light;</l>
+               <l>This ſpirit ſearcheth deep into</l>
+               <l>things that very high.</l>
+               <l>The length and breadth of glorious ſtore,</l>
+               <l>it hath before its eye.</l>
+               <l>
+                  <pb n="21" facs="tcp:108736:11"/>
+That ſearcheth out the utmoſt drop</l>
+               <l>which in the Ocean dwels:</l>
+               <l>And by its mighty force and power</l>
+               <l>all noyſome things expels,</l>
+               <l>This ſpirit like a Dove moſt ſwift</l>
+               <l>from Paradice doth flie.</l>
+               <l>And from our Saviour brings us newes</l>
+               <l>of matters ſweet and high,</l>
+               <l>Whereby we come to underſtand</l>
+               <l>God will not live alone,</l>
+               <l>He dwels with Chriſt, and Chriſt in us,</l>
+               <l>and ſo we dwell in one,</l>
+               <l>O this is that which fils our hearts</l>
+               <l>with ſinging and with praiſe,</l>
+               <l>That what he is, that we ſhall be</l>
+               <l>to 'ternity of dayes.</l>
+               <l>Let each Saint think all that they have</l>
+               <l>it commeth from the Son,</l>
+               <l>Their glory and their flouriſhing ſtate</l>
+               <l>comes by his arme alone.</l>
+               <l>None can ſee God in <hi>Ieſus Chriſt</hi>
+               </l>
+               <l>but muſt be forc'd to yeeld,</l>
+               <l>And lay all armes downe at his feet,</l>
+               <l>and ſay he hath the field.</l>
+               <l>Can any ſtand againſt that thing</l>
+               <l>which is moſt fair and gay,</l>
+               <l>And hath the power of lovelineſſe</l>
+               <l>to win the heart away?</l>
+               <l>From lies, from falſhoods, and from dreams,</l>
+               <l>from many deaths and ſhowers,</l>
+               <l>And from the hands of iron bands,</l>
+               <l>and from all dolefull houres.</l>
+               <l>
+                  <pb n="22" facs="tcp:108736:12"/>
+Then do not fear you Saints moſt dear</l>
+               <l>if that you know the Son</l>
+               <l>You do the Fathers face, and love</l>
+               <l>both ſee and eke are won</l>
+               <l>To dwell, to ſtay, to reſt, to ſing,</l>
+               <l>in him, and to his praiſe,</l>
+               <l>And eke to ſacrifice your ſelves,</l>
+               <l>unto his fame alwayes.</l>
+               <l>When others ſpend their time in vain,</l>
+               <l>and fill themſelves with fire,</l>
+               <l>The which is call'd the wrath of God</l>
+               <l>that hot conſuming ire.</l>
+               <l>They know not God nor yet his Son,</l>
+               <l>where all content doth lie,</l>
+               <l>And therefore are they bound in chaines</l>
+               <l>of woe and miſery.</l>
+               <l>You Saints weep ore the world that's loſt,</l>
+               <l>they know not where they go.</l>
+               <l>Though they be blinde you know right well</l>
+               <l>the ground of all their woe.</l>
+               <l>Oh do not let eternall flames</l>
+               <l>for ever men deſtroy:</l>
+               <l>Becauſe like fools a moments time</l>
+               <l>they will vain thoughts enjoy.</l>
+               <l>Shew them our Saviour where he ſits</l>
+               <l>that ſo they may ariſe,</l>
+               <l>And finde much wealth and reſt in him,</l>
+               <l>and ſo vain wayes deſpiſe.</l>
+               <l>But if the world will not you hear,</l>
+               <l>yet ſtill run you your race,</l>
+               <l>You ſhall at laſt both get a crowne</l>
+               <l>and live in glorious grace.</l>
+               <l>
+                  <pb n="23" facs="tcp:108736:12"/>
+Above the world, all cares, all fears</l>
+               <l>which vext you with their wiles,</l>
+               <l>Your toyl's now done, your joyes begun,</l>
+               <l>you are where nought defiles.</l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>A ſhort ſong of Love.</head>
+            <lg>
+               <l>LOve is the flame that Princes have</l>
+               <l>ſtill kindling in their breaſt,</l>
+               <l>No man can live but he muſt love,</l>
+               <l>or elſe be void of reſt.</l>
+               <l>The riſe, the ſtocke, the root it hath</l>
+               <l>doth ſpring from ſomething good;</l>
+               <l>All its deſires are as flaming fires</l>
+               <l>when this is underſtood,</l>
+               <l>As rivers run over all the world,</l>
+               <l>their noiſe with fame doth ring,</l>
+               <l>And haſteneth ever to returne</l>
+               <l>where firſt they had their ſpring,</l>
+               <l>And when the Ocean drinks them in,</l>
+               <l>they quiet are again:</l>
+               <l>And in their kinde they live as if</l>
+               <l>they freed were from pain:</l>
+               <l>So love it runs with ſtreams moſt ſtrong</l>
+               <l>over hils and mountains all,</l>
+               <l>It will not fear what force is nere,</l>
+               <l>it overrunneth all.</l>
+               <l>And in the fountain of all blis,</l>
+               <l>it ſets it ſelfe moſt ſure,</l>
+               <l>Rejoycing in thoſe mighty waves,</l>
+               <l>on which it rides ſecure:</l>
+               <l>
+                  <pb n="24" facs="tcp:108736:13"/>
+'Tis lovelines that love will owne</l>
+               <l>to be a fellow meet</l>
+               <l>In it to reſt, that to imbrace</l>
+               <l>with ſmiles and kiſſes ſweet,</l>
+               <l>Loves labour, pain, and all it hath</l>
+               <l>is ever how to pleaſe</l>
+               <l>The object; and in doing this</l>
+               <l>To give it ſelfe moſt eaſe;</l>
+               <l>'Tis ever burning, never conſum'd,</l>
+               <l>and ſoaring very high;</l>
+               <l>By flames of glory it doth live</l>
+               <l>in full proſperity<g ref="char:punc">▪</g>
+               </l>
+               <l>Stand forth all powers that can be thought,</l>
+               <l>ſee if you can it ſever</l>
+               <l>From truth, from beauty, and from ſtrength</l>
+               <l>where it will dwell for ever.</l>
+               <l>This love is kinde, and bountifull,</l>
+               <l>and freely will beſtow</l>
+               <l>All that it hath it ſelfe to boot,</l>
+               <l>that ſo it ſelfe may grow</l>
+               <l>More lovely, fair, and excellent</l>
+               <l>ſtill in the objects eye.</l>
+               <l>If that is pleaſed, it is at eaſe,</l>
+               <l>and feels no miſerie.</l>
+               <l>Who knowes how firſt it had its riſe?</l>
+               <l>Who gave to it its name?</l>
+               <l>If any did, it muſt be one</l>
+               <l>that knew its worth and fame.</l>
+               <l>It's God that ſaith his Name is Love,</l>
+               <l>and well may he ſo be.</l>
+               <l>Becauſe in him all glories are</l>
+               <l>met in an unity.</l>
+               <l>
+                  <pb n="25" facs="tcp:108736:13"/>
+Light life and love is one in him,</l>
+               <l>they all grow up together.</l>
+               <l>Though knowne to us by ſeverall names,</l>
+               <l>they each accord with either.</l>
+               <l>He knowes all beauties in him are,</l>
+               <l>his life is this to ſee.</l>
+               <l>Then needs muſt love triumph and joy,</l>
+               <l>which makes this harmony,</l>
+               <l>Love walks in every piece of joy,</l>
+               <l>where ever it doth finde,</l>
+               <l>It will needs reſt in glories breaſt,</l>
+               <l>and there contents its minde.</l>
+               <l>What mortall man can have this love</l>
+               <l>to lie within his breaſt,</l>
+               <l>But muſt withall ſee lovelineſſe</l>
+               <l>in which he takes his reſt;</l>
+               <l>And whereſoever this appeares,</l>
+               <l>he growes up in deſire:</l>
+               <l>In this he thinke himſelfe moſt bleſt,</l>
+               <l>and followes it intire.</l>
+               <l>But man is blinde, how little he</l>
+               <l>of holineſle doth know.</l>
+               <l>Truth's weakly planted in his heart,</l>
+               <l>and ſlowly it doth grow;</l>
+               <l>And hence it comes to paſſe that we</l>
+               <l>live in ſuch low deſires:</l>
+               <l>The earth like to a mountain thicke</l>
+               <l>doth hide theſe heavenly fires.</l>
+               <l>If you would have your heart a ſpring,</l>
+               <l>a fountain, and a well,</l>
+               <l>And have the mighty waves of love</l>
+               <l>above their banks to ſwell.</l>
+               <l>
+                  <pb n="26" facs="tcp:108736:14"/>
+If you would ever ſearching be</l>
+               <l>into the trueſt treaſure,</l>
+               <l>And finde where love had firſt a ſeat,</l>
+               <l>and face of ſweeteſt pleaſure.</l>
+               <l>If ever you would lovely be,</l>
+               <l>though in the Saints eſteem.</l>
+               <l>And judge of all things true and right,</l>
+               <l>how ever men do deem,</l>
+               <l>Then muſt you know that all things good</l>
+               <l>doth from the fountain come,</l>
+               <l>And tides of love will flow amain</l>
+               <l>and make a ſpacious room</l>
+               <l>Within thy heart, and thou ſhalt ſee,</l>
+               <l>all that thine heart can wiſh.</l>
+               <l>Love live, ſin die, life reigne, death flie,</l>
+               <l>what joy is like to this?</l>
+               <l>Make haſte ye Saints, O do not ſtay,</l>
+               <l>where nought can you ſecure.</l>
+               <l>Fly to the armes of lovely love,</l>
+               <l>where joyes are clear and pure.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:108736:14"/>
+         </div>
+      </body>
+   </text>
+</TEI>
